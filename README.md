@@ -55,6 +55,7 @@ The model designed is a Neural Network. It is fully connected neural network, wi
 - Dense layer (64), relu activation
 - Dense layer (64), relu activation
 - Dense layer (3), linear activation
+
 Mean Square Error is used to compute loss and Adam optimizer is used.
 ### Algorithm
 The full agorithm, with the AI, is :
