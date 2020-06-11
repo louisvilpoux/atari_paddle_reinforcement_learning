@@ -38,12 +38,14 @@ The state is a space information about elements in the game. In the paddle game,
 - the position of the paddle (along the x-axis)
 - the position of the ball (along the x and y-axis)
 - the velocity of the ball (along the x and y-axis)
+
 Those informations are used by the agent to take a decision.
 #### Reward
 Rewards give the agent an idea about a good or a bad action. It seems logic that the agent should want to receive the best reward. In the paddle game, it means :
 - if the paddle hit the ball, the reward is +3
 - if the paddle miss the ball, the reward is -3
 - if the paddle moves, the reward is -0.1.
+
 The last reward has been designed to obtain the smoothest and accurate movement of the paddle.
 #### Q-matrix
 In order to let the agent select the best choice depeding on its situation, the idea is to attribute a score for each action before each move decision. This is the Q-matrix.
